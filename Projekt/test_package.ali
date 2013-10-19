@@ -1,0 +1,99 @@
+V "GNAT Lib v3.4"
+A -mcpu=v7
+P SS ZX
+R nnvnnnnvvnnnnnvnvnvvvvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvvnn
+
+U test_package%b	test_package.adb	2203d0aa NE PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U test_package%s	test_package.ads	7fad3a35 EE NE PK
+W part_package%s	part_package.adb	part_package.ali
+
+D ada.ads		20030424175420 a0108083
+D a-except.ads		20031021134224 a1717b33
+D a-finali.ads		20030424175420 d4be2e87
+D a-filico.ads		20030424175420 83058640
+D a-inteio.ads		20030424175420 58c81565
+D a-ioexce.ads		20030424175420 d52e128a
+D a-stream.ads		20030424175420 dbe6acb4
+D a-tags.ads		20031021134224 8f0cfa9c
+D a-tags.adb		20031021134224 547ae7e1
+D a-textio.ads		20031021134224 3e7f8d76
+D a-tiinio.ads		20030424175420 d2c49634
+D interfac.ads		20031021134224 6e859da6
+D i-cstrea.ads		20031215115101 7690e8d9
+D part_package.ads	20120509090212 8fb62100
+D rotate_package.ads	20120321122357 c8a4d74b
+D system.ads		20031021134224 2c3bd880
+D s-crtl.ads		20031217133704 a4a6fa53
+D s-exctab.ads		20031021134224 6637f07f
+D s-ficobl.ads		20030424175420 14416104
+D s-finimp.ads		20031021134224 ef65ab1e
+D s-finroo.ads		20031021134224 7e5e077b
+D s-htable.ads		20031021134224 af1a22d4
+D s-parame.ads		20031021134224 8479efe6
+D s-secsta.ads		20040105152047 7804722c
+D s-soflin.ads		20031021134224 14059e84
+D s-stache.ads		20031021134224 6135f334
+D s-stalib.ads		20031021134224 e7ad2af0
+D s-stoele.ads		20031021134224 6a4eed4d
+D s-stoele.adb		20030424175420 792079f8
+D s-stratt.ads		20031021134224 c1077a4d
+D s-traent.ads		20031021134224 e81a0978
+D s-unstyp.ads		20031021134224 0d291e44
+D test_package.ads	20120322133433 f01b1b35
+D test_package.adb	20120516144559 b4af538c
+D unchconv.ads		20030424175420 1b7a14c5
+X 1 ada.ads
+16K9*Ada 19e8 34|1r6 1r23 2r6 2r31
+X 5 a-inteio.ads
+18K13*Integer_Text_IO 34|2w10 2r35
+X 10 a-textio.ads
+49K13*Text_IO 445e16 34|1w10 1r27
+167U14*New_Line 34|37r16 44r16 46r16 48r16
+243U14*Put 34|35r16 45r16 47r16
+X 11 a-tiinio.ads
+67U14*Put 34|36r16[5|18] 38r16[5|18] 39r16[5|18] 40r16[5|18] 41r16[5|18]
+. 42r16[5|18] 43r16[5|18]
+X 14 part_package.ads
+5K9*Part_Package 52e17 33|1w6 1r24
+14A9*Part_Array(8R9) 33|6r33 34|17r33
+15R9*Figure_Type 21e17 33|5r33 34|6r25 16r33 19r19
+19a10*S{string} 34|47r30
+20i10*S_Length{integer} 34|47r45
+25i10*X{integer} 34|38r36
+25i13*Y{integer} 34|39r36
+25i16*Z{integer} 34|40r36
+26i10*RotX{integer} 34|41r36
+26i16*RotY{integer} 34|42r36
+26i22*RotZ{integer} 34|43r36
+28a10*S{string} 34|45r36
+29i10*S_Length{integer} 34|45r57
+32A9*Part_Information_Array(22R9) 33|7r67 34|18r67
+37U14*Place_Part 34|33r13
+40U14*Count_Offset 34|28r16
+44V13*Length{integer} 34|8r19
+46V13*Equals{boolean} 34|9r13
+49V13*Get_Part{8R9} 34|33r35
+X 33 test_package.ads
+3K9*Test_Package 9l5 9e17 34|4b14 63l5 63t17
+5U14*Try_Figure 5>26 6>26 6>45 7=45 7=91 34|16b14 62l8 62t18
+5r26 F{14|15R9} 34|16b26 19r34
+6a26 P{14|14A9} 34|17b26 33r44
+6i45 Length{integer} 34|17b45 25r17 32r18
+7a45 Placed_Parts{14|32A9} 34|18b45 28m29 33m51 38r20 39r20 40r20 41r20 42r20
+. 43r20 45r20 45r41
+7b91 Solved{boolean} 34|18b91 26m13 54m19
+X 34 test_package.adb
+6V13 Full{boolean} 6b13 6>18 6>38 14l8 14t12 25r33
+6r18 F{14|15R9} 8r26 9r20
+6i38 I{integer}
+8i11 L{integer} 9r23
+19r7 Schematic{14|15R9} 25r38 33m24 47r20 47r35
+20i7 I{integer} 25r13 25r49 27r25 32r13 33r47 33r64 36r20 38r33 39r33 40r33
+. 41r33 42r33 43r33 45r33 45r54 49m16 49r21 52m16 52r21 53r19 59m13 59r18
+21b7 Found_Place{boolean} 24m10 33m68 34r16 50m16
+27i17 N{integer} 28r42
+

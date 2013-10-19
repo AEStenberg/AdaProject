@@ -1,0 +1,132 @@
+V "GNAT Lib v3.4"
+A -mcpu=v7
+P SS ZX
+R nnvnnnnvvnnnnnvnvnvvvvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvvnv
+
+U rotate_package%b	rotate_package.adb	b9f3e309 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U rotate_package%s	rotate_package.ads	ae134f58 EE PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20030424175420 a0108083
+D a-except.ads		20031021134224 a1717b33
+D a-finali.ads		20030424175420 d4be2e87
+D a-filico.ads		20030424175420 83058640
+D a-inteio.ads		20030424175420 58c81565
+D a-ioexce.ads		20030424175420 d52e128a
+D a-stream.ads		20030424175420 dbe6acb4
+D a-tags.ads		20031021134224 8f0cfa9c
+D a-tags.adb		20031021134224 547ae7e1
+D a-textio.ads		20031021134224 3e7f8d76
+D a-tiinio.ads		20030424175420 d2c49634
+D interfac.ads		20031021134224 6e859da6
+D i-cstrea.ads		20031215115101 7690e8d9
+D rotate_package.ads	20120321122357 c8a4d74b
+D rotate_package.adb	20120516155552 71573442
+D system.ads		20031021134224 2c3bd880
+D s-crtl.ads		20031217133704 a4a6fa53
+D s-exctab.ads		20031021134224 6637f07f
+D s-ficobl.ads		20030424175420 14416104
+D s-finimp.ads		20031021134224 ef65ab1e
+D s-finroo.ads		20031021134224 7e5e077b
+D s-htable.ads		20031021134224 af1a22d4
+D s-parame.ads		20031021134224 8479efe6
+D s-secsta.ads		20040105152047 7804722c
+D s-soflin.ads		20031021134224 14059e84
+D s-stache.ads		20031021134224 6135f334
+D s-stalib.ads		20031021134224 e7ad2af0
+D s-stoele.ads		20031021134224 6a4eed4d
+D s-stoele.adb		20030424175420 792079f8
+D s-stratt.ads		20031021134224 c1077a4d
+D s-traent.ads		20031021134224 e81a0978
+D s-unstyp.ads		20031021134224 0d291e44
+D unchconv.ads		20030424175420 1b7a14c5
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r31 2r6 2r23
+X 5 a-inteio.ads
+18K13*Integer_Text_IO 14|1w10 1r35
+X 10 a-textio.ads
+49K13*Text_IO 445e16 14|2w10 2r27
+167U14*New_Line 15|81r10 83r10 87r10 89r10
+243U14*Put 15|82r10 88r10
+X 11 a-tiinio.ads
+67U14*Put 15|84r10[5|18] 85r10[5|18] 86r10[5|18]
+X 14 rotate_package.ads
+3K9*Rotate_Package 17l5 17e19 15|1b14 170l5 170t19
+5X4*Move_Error 15|21r22 37r22 49r16 90r16 115r16 140r16
+7V13*Move_X{string} 7>20 7>41 15|15b13 28l8 28t14
+7s20 Current{string} 15|15b20 16r28 18r19 19r13
+7i41 X{integer} 15|15b41 20r22
+8V13*Move_Y{string} 8>20 8>41 8>44 8>47 15|30b13 43l8 43t14
+8s20 Current{string} 15|30b20 31r28 34r19 35r13
+8i41 X{integer} 15|30b41 32r27 36r58 39r24
+8i44 Y{integer} 15|30b44 32r29
+8i47 Z{integer} 15|30b47
+9V13*Move_Z{string} 9>20 9>41 9>44 9>47 15|45b13 57l8 57t14
+9s20 Current{string} 15|45b20 46r28 48r25 51r19 52r13
+9i41 X{integer} 15|45b41 48r34 53r24
+9i44 Y{integer} 15|45b44 48r37 53r26
+9i47 Z{integer} 15|45b47 48r40
+11U14*Rotate_X 11=23 11=27 11=31 12=23 15|59b14 91l8 91t16
+11i23 Cx{integer} 15|59b23 65r12 84r14
+11i27 Cy{integer} 15|59b27 66r12 76m7 85r14
+11i31 Cz{integer} 15|59b31 67r12 77m7 86r14
+12s23 Str{string} 15|60b23 63r27 71r39 78m7 88r14
+13U14*Rotate_Y 13=23 13=27 13=31 14=23 15|93b14 116l8 116t16
+13i23 Cx{integer} 15|93b23 99r12 110m7
+13i27 Cy{integer} 15|93b27 100r12
+13i31 Cz{integer} 15|93b31 101r12 111m7
+14s23 Str{string} 15|94b23 97r27 105r39 112m7
+15U14*Rotate_Z 15=23 15=27 15=31 16=23 15|118b14 141l8 141t16
+15i23 Cx{integer} 15|118b23 124r12 136m7
+15i27 Cy{integer} 15|118b27 125r12 137m7
+15i31 Cz{integer} 15|118b31 126r12
+16s23 Str{string} 15|119b23 122r27 130r39 135m7
+X 15 rotate_package.adb
+3V13 Last_Empty{boolean} 3b13 3>25 3>46 3>49 3>52 12l8 12t18 48r14
+3s25 Current{string} 4r22 7r13
+3i46 X{integer} 4r39 6r21
+3i49 Y{integer} 4r41 6r23
+3i52 Z{integer}
+4i7 K{integer} 6r16 6r19
+6i11 I{integer} 7r21
+16a7 Str_Temp{string} 23m16 27r14
+18i11 I{integer} 19r21 20r16 23r25
+31a7 Str_Temp{string} 39m13 42r14
+32i7 Z_Part{integer} 36r22 36r48
+34i11 I{integer} 35r21 36r16 36r42 39r22
+46a7 Str_Temp{string} 53m13 56r14
+51i11 I{integer} 52r21 53r22
+61i7 New_Length{integer} 71r24 72m16 72r30
+62i7 X{integer} 65m7 70r25 71r45 71r49 71r59 88r21
+62i10 Y{integer} 66m7 68r19 71r47 77r13 88r23
+62i13 Z{integer} 67m7 69r22 76r13 88r25
+63a7 New_Str{string} 71m16 78r14
+68i11 L{integer} 71r54
+69i14 I{integer} 71r43
+70i17 K{integer} 71r51
+95i7 New_Length{integer} 105r24 106m16 106r30
+96i7 X{integer} 99m7 102r19 105r43 105r51 105r65 111r13
+96i10 Y{integer} 100m7 103r22 105r67
+96i13 Z{integer} 101m7 104r25 110r13
+97a7 New_Str{string} 105m16 112r14
+102i11 L{integer} 105r54
+103i14 I{integer} 105r46
+104i17 K{integer} 105r60
+120i7 New_Length{integer} 130r24 131m16 131r30
+121i7 X{integer} 124m7 128r22 130r44 130r61 137r13
+121i10 Y{integer} 125m7 129r25 130r63 136r13
+121i13 Z{integer} 126m7 127r19
+122a7 New_Str{string} 130m16 135r14
+127i11 K{integer} 130r66
+128i14 L{integer} 130r51
+129i17 I{integer} 130r46
+

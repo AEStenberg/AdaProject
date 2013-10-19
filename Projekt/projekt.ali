@@ -1,0 +1,31 @@
+V "GNAT Lib v3.4"
+A -mcpu=v7
+P NO ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnv
+
+U projekt%s		projekt.ads		66f251d5 EE PK
+
+D projekt.ads		20120210123149 66f251d5
+X 1 projekt.ads
+1K9*Projekt 31l5 31e12
+3A9*Cube_Array 14c9
+4A9*Part_Array 15c9
+5R9*Cube_Type 9r42 14r40 18c9 22e17
+6R9*Part_Type 8r35 9r63 15r40 24c9 28e17
+8U14*Rotate 8=21
+8r21 Part{6R9}
+9U14*Put_Part 9=23 9>53
+9r23 Schematic{5R9}
+9r53 Part{6R9}
+16A9 Int_Array(integer) 21r18 27r18
+20i10*Number{integer}
+20i18*Length{integer}
+20i26*Height{integer}
+20i34*Dept{integer}
+21a10*Parts{16A9}
+26i10*Number{integer}
+26i18*Length{integer}
+26i26*Height{integer}
+26i34*Dept{integer}
+27a10*Parts{16A9}
+
